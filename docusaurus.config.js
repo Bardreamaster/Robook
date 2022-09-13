@@ -9,7 +9,7 @@ const config = {
   title: 'Robook - Robotics in SUSTech',
   tagline: 'Robotics Handbook',
   url: 'https://bardreamaster.github.io',
-  baseUrl: '/Robook/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -36,14 +36,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           path: 'blog',
           blogTitle: '博客标题',
           blogDescription: '博客',
-          blogSidebarCount: 5,
+          blogSidebarCount: 'ALL',
           blogSidebarTitle: '我们的所有博文',
           routeBasePath: 'blog',
           include: ['**/*.{md,mdx}'],
@@ -87,21 +87,44 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Robook',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'handbook/control/controlsyh',
             position: 'left',
-            label: 'Tutorial',
+            label: '机器人手册',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'resources/societies/nanshancd',
+            position: 'left',
+            label: '资源分享',
+          },
+          { 
+            type: 'dropdown',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left',
+            items: [
+              {
+                label: 'Tags',
+                to: '/blog/tags',
+              },
+            ],
+          },
+          {
+            type: 'doc',
+            docId: 'about/aboutRobook',
+            position: 'left',
+            label: '关于本站',
+          },
+          {
+            href: 'https://github.com/bardreamaster/robook',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,31 +134,31 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '机器人手册',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '机器人手册',
+                to: '/docs/handbook/intro_handbook',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
@@ -145,7 +168,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/bardreamaster/robook',
               },
             ],
           },

@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Understand',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Robook是⼀份⾯向对机器⼈感兴趣新⽣的机器⼈扫盲⼿册和攻略.
+      
       </>
     ),
   },
@@ -18,18 +18,19 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Robook致力于编辑、汇总南科大机器人方向入门、成长所必须的各种资料,
+        让更多对机器人感兴趣的人了解、深入这一领域.
+        ⼿册中既包括机器⼈学科的学习路线建议，也涵盖在南科⼤ 做机器⼈如何打怪升级的建议和经验.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by SUSTechers',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Robook由南科⼤学⽣贡献和总结我们希望通过这个⼿册,
+        将我们学到的知识传递下去,为南科⼤⼯程师⽂化在学生群体中的建⽴提供⼀个平台.
       </>
     ),
   },
