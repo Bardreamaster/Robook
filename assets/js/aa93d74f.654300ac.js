@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[2426],{5131:o=>{o.exports=JSON.parse('{"label":"hello","permalink":"/Robook/blog/tags/hello","allTagsPath":"/Robook/blog/tags","count":2}')}}]);
