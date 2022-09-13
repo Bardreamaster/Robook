@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[6305],{1081:o=>{o.exports=JSON.parse('{"title":"\u63a7\u5236","slug":"/category/\u63a7\u5236","permalink":"/docs/category/\u63a7\u5236","navigation":{"next":{"title":"\u673a\u5668\u4eba\u63a7\u5236\u5206\u4eab","permalink":"/docs/handbook/control/controlsyh"}}}')}}]);
