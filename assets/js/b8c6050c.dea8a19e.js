@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[9989],{2217:a=>{a.exports=JSON.parse('{"label":"\u8bba\u6587","permalink":"/blog/tags/\u8bba\u6587","allTagsPath":"/blog/tags","count":1}')}}]);

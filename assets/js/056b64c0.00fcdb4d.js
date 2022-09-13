@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[5255],{7968:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/\u8bba\u6587","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2\u6807\u9898"}')}}]);

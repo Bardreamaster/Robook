@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[7394],{5291:e=>{e.exports=JSON.parse('{"title":"\u793e\u56e2\u4fe1\u606f","slug":"/category/\u793e\u56e2\u4fe1\u606f","permalink":"/docs/category/\u793e\u56e2\u4fe1\u606f","navigation":{"next":{"title":"nanshancd","permalink":"/docs/resources/societies/nanshancd"}}}')}}]);
