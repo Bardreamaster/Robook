@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bardreamaster.github.io/blog</id>
-    <title>Robook - Robotics in SUSTech Blog</title>
+    <title>Robook Blog</title>
     <updated>2022-09-14T02:56:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bardreamaster.github.io/blog"/>
-    <subtitle>Robook - Robotics in SUSTech Blog</subtitle>
+    <subtitle>Robook Blog</subtitle>
     <icon>https://bardreamaster.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[机器人专业的学习路线]]></title>
