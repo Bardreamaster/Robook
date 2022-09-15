@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Robook是⼀份⾯向对机器⼈感兴趣新⽣的机器⼈扫盲⼿册和攻略.
-      
+        Robook是一份面向对机器人感兴趣的新生的机器人扫盲手册和攻略.
       </>
     ),
   },
@@ -20,7 +19,7 @@ const FeatureList = [
       <>
         Robook致力于编辑、汇总南科大机器人方向入门、成长所必须的各种资料,
         让更多对机器人感兴趣的人了解、深入这一领域.
-        ⼿册中既包括机器⼈学科的学习路线建议，也涵盖在南科⼤ 做机器⼈如何打怪升级的建议和经验.
+        手册中既包括机器人学科的学习路线建议,也涵盖在南科大做机器人如何打怪升级的建议和经验.
       </>
     ),
   },
@@ -29,8 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Robook由南科⼤学⽣贡献和总结我们希望通过这个⼿册,
-        将我们学到的知识传递下去,为南科⼤⼯程师⽂化在学生群体中的建⽴提供⼀个平台.
+        Robook由南科大学生贡献和总结,我们希望通过这个手册，
+        将我们学到的知识传递下去,为南科大工程师文化在学生群体中的建立提供一个平台.
       </>
     ),
   },

@@ -1,3 +1,8 @@
+---
+title: 关于 Robook
+authors: [changshan, dcx]
+---
+
 ## About Robook
 
 RoBook 由两位南科大机器人专业本科生牵头成立：戴存玺（19级），魏锦启（18级）。动机非常简单：为，将原本需要无数反馈的经验传递下去。
