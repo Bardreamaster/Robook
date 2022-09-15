@@ -4,14 +4,18 @@ changshan:
   url: https://bardreamaster.xyz
   image_url: https://bardreamaster.xyz/wp-content/uploads/2022/05/IMG_20201212_214410.jpg
   email: changshanshi@outlook.com
-  
+
+dcx:
+  name: 戴存玺
+  title: Maintainer of Docusaurus
+
 ldaifeng:
   name: 李岱峰
   title: 本科17级机器人工程专业,硕士21级智能制造与机器人专业,,目前在CLEAR Lab.
 
 czhenyang:
   name: 陈臻洋
-  title: 18级本科,前Robomaster队员,树德学长团成员,贾振中老师课题组成员,一个想让世界变得更好的机器人学生。
+  title: 18级本科,前Robomaster队员,树德学长团成员,贾振中老师课题组成员,一个想让世界变得更好的机器人学生.
   email: chen-zhenyang@outlook.com
 
 nokk:
@@ -28,11 +32,11 @@ perryl:
 
 syinghan:
   name: 孙英涵
-  title: 原17级机器人工程专业本科生 现为张巍老师课题组CLEAR LAB硕士研究生 主要研究方向为足式机器人的控制与学习
+  title: 原17级机器人工程专业本科生 现为张巍老师课题组CLEAR LAB硕士研究生 主要研究方向为足式机器人的控制与学习.
 
 xuronghan:
   name: 许戎汉
-  title: 18级机器人工程专业 前ARES机械队员 目前在宋超阳老师课题组BioDL 有较丰富机械设计经验，研究兴趣为一切能便利生活的机械与机器人
+  title: 18级机器人工程专业 前ARES机械队员 目前在宋超阳老师课题组BioDL 有较丰富机械设计经验，研究兴趣为一切能便利生活的机械与机器人.
 
 cat:
   name: Cat
@@ -40,4 +44,10 @@ cat:
 
 zhongyi:
   name: 周弘毅
-  title: 21级光电信息科学与工程专业 22赛季和23赛季ARTINX硬件组组长
+  title: 21级光电信息科学与工程专业 22赛季和23赛季ARTINX硬件组组长.
+
+rzeyu:
+  name: 任赜宇
+  title: 小米科技 高级硬件工程师
+  url: https://zeyuren93.netlify.app/
+  image_url: https://zeyuren93.netlify.app/author/zeyu-ren/avatar_hu46eb0aa72633604d6b8a073902217e54_557542_270x270_fill_q90_lanczos_center.jpg

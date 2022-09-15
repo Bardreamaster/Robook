@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Robook - Robotics in SUSTech',
-  tagline: 'Robotics Handbook',
+  title: 'Robook',
+  tagline: 'Robotics in SUSTech',
   url: 'https://bardreamaster.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config = {
           blogTitle: '博客标题',
           blogDescription: '博客',
           blogSidebarCount: 'ALL',
-          blogSidebarTitle: '我们的所有博文',
+          blogSidebarTitle: '所有文章',
           routeBasePath: 'blog',
           include: ['**/*.{md,mdx}'],
           exclude: [
@@ -58,7 +58,7 @@ const config = {
           blogPostComponent: '@theme/BlogPostPage',
           blogTagsListComponent: '@theme/BlogTagsListPage',
           blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
-          //remarkPlugins: [require('remark-math')],
+          remarkPlugins: [require('remark-math')],
           rehypePlugins: [],
           beforeDefaultRemarkPlugins: [],
           beforeDefaultRehypePlugins: [],
@@ -88,6 +88,7 @@ const config = {
     ({
       navbar: {
         title: 'Robook',
+        hideOnScroll: true,
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
@@ -95,24 +96,28 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'handbook/control/controlsyh',
+            docId: 'handbook/intro_handbook',
             position: 'left',
             label: '机器人手册',
           },
           {
             type: 'doc',
-            docId: 'resources/societies/nanshancd',
+            docId: 'resources/intro_res',
             position: 'left',
             label: '资源分享',
           },
           { 
             type: 'dropdown',
             to: '/blog', 
-            label: 'Blog', 
+            label: '博客', 
             position: 'left',
             items: [
               {
-                label: 'Tags',
+                label: '所有文章',
+                to: '/blog/',
+              },
+              {
+                label: '标签',
                 to: '/blog/tags',
               },
             ],
@@ -133,53 +138,119 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: '机器人手册',
-            items: [
-              {
-                label: '机器人手册',
-                to: '/docs/handbook/intro_handbook',
-              },
-            ],
-          },
           // {
-          //   title: 'Community',
+          //   title: '机器人手册',
           //   items: [
           //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //       label: '机器人手册',
+          //       to: '/docs/handbook/intro_handbook',
+          //     },
+          //   ],
+          // },
+          // // {
+          // //   title: 'Community',
+          // //   items: [
+          // //     {
+          // //       label: 'Stack Overflow',
+          // //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          // //     },
+          // //     {
+          // //       label: 'Discord',
+          // //       href: 'https://discordapp.com/invite/docusaurus',
+          // //     },
+          // //     {
+          // //       label: 'Twitter',
+          // //       href: 'https://twitter.com/docusaurus',
+          // //     },
+          // //   ],
+          // // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
           //     },
           //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
+          //       label: 'GitHub',
+          //       href: 'https://github.com/bardreamaster/robook',
           //     },
           //   ],
           // },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/bardreamaster/robook',
-              },
-            ],
+            html:` <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv" style='display:none'>本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>`,
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Robook. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Robook.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+  
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          //'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/oooxWHITE.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(0, 63, 67)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/oooxWHITE.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/oooxWHITE.svg',
+            color: 'rgb(0, 63, 67)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/oooxWHITE.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;
