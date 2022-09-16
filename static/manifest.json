@@ -1,0 +1,38 @@
+{
+    "short_name": "Robook",
+    "name": "Robook",
+    "start_url": "/",
+    "background_color": "#003f43",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#003f43",
+    "description": "Robotics in SUSTech",
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://robook.org/manifest.json"
+      }
+    ],
+    "icons": [
+      {
+        "src": "/img/oooxWHITE.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/img/oooxWHITE192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/oooxWHITE128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/img/oooxWHITE.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
