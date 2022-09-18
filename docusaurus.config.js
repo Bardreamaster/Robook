@@ -102,7 +102,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'resources/societies/nanshancd',
+            docId: 'resources/intro_res',
             position: 'left',
             label: '资源分享',
           },

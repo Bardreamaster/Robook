@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is for website Robook.
+This repository is for [Robook](robook.org).
 
 ## Build
 
