@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This resposi
+This repository is for [Robook](robook.org).
 
 ## Build
 
