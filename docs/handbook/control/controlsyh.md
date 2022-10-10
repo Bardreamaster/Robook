@@ -3,6 +3,7 @@ title: 机器人控制分享
 authors: [syinghan]
 tags: [控制, 心得]
 ---
+
 ## 0 前言
 
 本文主要为有意向学习机器人控制的低年级本科生提供一些学习材料和学习思路，高年级本科生根据目前自己的学习进度和研究方向酌情参考即可。
@@ -46,19 +47,28 @@ tags: [控制, 心得]
 我在最后给出了一篇讲解矩阵求导技术的文章 [2.1.12]，大家在学完微积分和线性代数后即可以看懂这篇文章。矩阵求导在我们后面实际应用中还是比较常见的，大家掌握文章中的内容就可以对各种矩阵函数进行求导了。
 
 > [2.1.1] (George B. Thomas, Jr, etc.) Thomas' Calculus (13th Edition) https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf
+
 > [2.1.2] (Gilbert Strang) Linear Algebra and Its Application (4th Edition) https://ia802906.us.archive.org/18/items/StrangG.LinearAlgebraAndItsApplications45881001/%5BStrang_G.%5D_Linear_algebra_and_its_applications%284%29%5B5881001%5D.pdf
+
 > [2.1.3] (John A.Rice) Mathematical Statistics and Data Analysis (3rd Edition) <http://home.ustc.edu.cn/~liweiyu/documents/[Duxbury%20Advanced]%20John%20A.%20Rice%20-%20Mathematical%20Statistics%20and%20Data%20Analysis%203ed%20(Duxbury%20Advanced)%20%20%20(2006,%20Duxbury%20Press).pdf>
+
 > [2.1.4] (John Polking, etc.) Differential Equations with Boundary Value Problems (2nd Edition)
+
 > [2.1.5] (Stephen Boyd, edt.) Convex Optimization https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
->
+
 > [2.1.6] (3Blue1Brown) 微积分的本质：https://space.bilibili.com/88461692?spm_id_from=333.337.0.0
+
 > [2.1.7] (3Blue1Brown) 线性代数：https://www.bilibili.com/video/BV1ys411472E?spm_id_from=333.999.0.0
+
 > [2.1.8] (3Blue1Brown) 概率论：https://space.bilibili.com/88461692/channel/seriesdetail?sid=1528924
-> [2.1.9] (MIT 18.06) 课程主页： https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
-> 带中文字幕的课程录像：https://www.bilibili.com/video/BV1zx411g7gq?spm_id_from=333.337.search-card.all.click
+
+> [2.1.9] (MIT 18.06) 课程主页： https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ \
+  带中文字幕的课程录像：https://www.bilibili.com/video/BV1zx411g7gq?spm_id_from=333.337.search-card.all.click
+
 > [2.1.10] (Stanford EE364) https://web.stanford.edu/class/ee364a/
+
 > [2.1.11] (Stanford Math128A) http://persson.berkeley.edu/math128a/ 课程录像: https://www.bilibili.com/video/BV1gv411j7rd?p=12
->
+
 > [2.1.12] (知乎-矩阵求导术) https://zhuanlan.zhihu.com/p/24709748
 
 ### 2.2 控制理论基础
@@ -71,7 +81,7 @@ tags: [控制, 心得]
 
   > [2.2.1] (Franklin, etc.) Feedback Control of Dynamic Systems https://www.daslhub.org/unlv/courses/00coursesUsb/labviewCourseDevelopment/labview-0X-LeadLag/Franklin%20PE%206th%20-%20textbook%20but%20perhaps%20too%20much%20-%20no%20simple%20Lag%20control%20example.pdf
 
-- 现代控制与最优估计：讲授状态空间表示法、可控性、可观性等现代控制理论的基本概念，以及卡尔曼滤波、线性二次型调节器（LQR）等重要内容，虽然是专业选修课，但是对于想搞控制的同学来说这门课必修。这门课程已经制作成了公开课并发布在了B站：https://space.bilibili.com/474380277/channel/seriesdetail?sid=291615。课程主页：https://www.wzhanglab.site/teaching/moderncontrolestimation/。这门课程不提供额外的参考资料，大家能将老师所讲内容全部消化吸收即可。
+- 现代控制与最优估计：讲授状态空间表示法、可控性、可观性等现代控制理论的基本概念，以及卡尔曼滤波、线性二次型调节器（LQR）等重要内容，虽然是专业选修课，但是对于想搞控制的同学来说这门课必修。这门课程已经制作成了公开课并发布在了B站：https://space.bilibili.com/474380277/channel/seriesdetail?sid=291615 。 课程主页：https://www.wzhanglab.site/teaching/moderncontrolestimation/ 。 这门课程不提供额外的参考资料，大家能将老师所讲内容全部消化吸收即可。
 
 - 线性系统：据说后面会有老师开这门课，开课后这门课对于大家来说也是在学有余力的情况下选择修读。
 
@@ -90,7 +100,9 @@ tags: [控制, 心得]
 最后我在这一部分给出三本参考文献：第一本是机器人建模与控制的教材，后面两本是高等机器人控制的其中两本参考材料。这里给大家的建议是：[2.3.1] 这本书在上课的时候最好能跟着仔细阅读一遍，后面两本书则为选读，具体试自己的能力而定，在理解课程所讲授内容的基础上，建议可以先尝试阅读 [2.3.3] 这本书的前面几章，主要考量还是我们在实际应用中会使用一些机器人动力学库，例如 Pinocchio、RBDL 等，这些库的实现大都是基于 [2.3.3] 这本书（包括算法以及一些符号约定），但是在本科阶段，没有时间阅读这本书也没有关系。
 
 > [2.3.1] (Spong) Robot Modeling and Control https://www.researchgate.net/profile/Mohamed_Mourad_Lafifi/post/How_to_avoid_singular_configurations/attachment/59d6361b79197b807799389a/AS%3A386996594855942%401469278586939/download/Spong+-+Robot+modeling+and+Control.pdf
+
 > [2.3.2] (Lynch K M, Park F C) Modern Robotics http://hades.mech.northwestern.edu/images/2/2e/MR-largefont-v2.pdf
+
 > [2.3.3] (Featherstone) Rigid Body Dynamics Algorithms https://github.com/create3000/titania/blob/master/Papers/%5B2008%20Featherstone%5D%20Rigid%20Body%20Dynamics%20Algorithms.pdf
 
 另外，高等机构动力学这门课也讲解了基于旋量理论的机器人建模方法，感兴趣且学有余力的同学亦可选修。
@@ -104,6 +116,7 @@ tags: [控制, 心得]
 - C++：在实际的机器人系统上，考虑到运行效率等问题，大部分情况下我们都采用的是 C++。因此掌握 C++ 对于同学们来说是很有必要的，由于大家在大一的计算机程序设计基础这门课上已经掌握的编程的基本思维以及类和对象的基本概念，那么我们对于另外一门编程语言的学习就会快很多。在入门阶段，我们最重要的就是掌握 C++ 的基本语法和指针这样一个在C++中非常重要的东西，下面我给大家推荐两本入门书籍供大家参考：
 
   >[2.4.1] (Kenneth A.Reek 著，徐波 译) C和指针 https://github.com/auspbro/ebook-c/blob/master/C%E5%92%8C%E6%8C%87%E9%92%88(%E7%AC%AC%E4%BA%8C%E7%89%88)%E9%AB%98%E6%B8%85%E5%85%A8%E7%89%88469%E9%A1%B5.pdf
+
   >[2.4.2] (Stephen Prata 著， 张海龙 袁国忠 译) C++ Primer Plus https://www.roboxx.ltd/wp-content/uploads/2021/08/C-Primer-Plus%E7%AC%AC6%E7%89%88%E4%B8%AD%E6%96%87%E7%89%88.pdf
 
   另外，大家也应该学会使用 gcc，[2.4.3] 为大家提供了一个入门级文章，大家只需要看到第6节以前即可，由于实际工程所包含的源代码文件以及使用的外部库均较多，因此我们通常借助 CMake (见下一条) 来完成。

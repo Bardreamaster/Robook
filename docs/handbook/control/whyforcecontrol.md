@@ -2,6 +2,7 @@
 title: 为什么我们在机器人运动控制中一直在强调力控？（Force/Torque Control）
 ---
 
+> 转载于：https://zhuanlan.zhihu.com/p/31811242
 
 之前介绍波士顿动力（Boston Dynamic Institute）Atlas2的文章和一系列SEA驱动器介绍的文章中，很多人都留言问到了：
 
@@ -20,11 +21,13 @@ title: 为什么我们在机器人运动控制中一直在强调力控？（Forc
 
 但是在某些应用场合中——更加精确地控制施加在末端执行器（End-Effector）的力比控制末端执行器的位置更加重要时，力控就必须得到引入，即：单单将关节目标位置（Target Position）作为控制输出量远远不能达到应用的要求，必须引入力矩/力控制输出量，或者将力矩/力作为闭环反馈量引入控制。
 
-[![image_6f22e0fd.png](http://markdown.liangtengyu.com:9999/images//image_6f22e0fd.png)https://www.zhihu.com/video/922549438768087040][image_6f22e0fd.png_http_markdown.liangtengyu.com_9999_images_image_6f22e0fd.png_https_www.zhihu.com_video_922549438768087040]
+![image_6f22e0fd.png](https://pic1.zhimg.com/v2-4ea35749ff748fd72a4e30daead1864d.jpg?source=382ee89a)
+https://www.zhihu.com/video/922549438768087040
 
 实例1：这个工业机械臂做不规则表面抛光（Polish），需要严苛控制末端抛光件与表面的接触力大小，因此需要用到末端执行器的力反馈，进行Hybrid Position/Force Control。(1981年的Marc Raribert已经占领这个山头)
 
-[![image_48feadf3.png](http://markdown.liangtengyu.com:9999/images//image_48feadf3.png)https://www.zhihu.com/video/922562020879007744][image_48feadf3.png_http_markdown.liangtengyu.com_9999_images_image_48feadf3.png_https_www.zhihu.com_video_922562020879007744]
+![image_48feadf3.png](https://pica.zhimg.com/v2-daafd8ee2b528a55119a15a93c358d11.jpg?source=382ee89a)
+https://www.zhihu.com/video/922562020879007744
 
 实例2：Atlas在不规则且未知的雪地路面行走（locomotion），路面情况没有做事先的建模预测（Perception），而且蓬松雪地这样的路况，没有办法预先做到精确的建模。简单来说：如果使用纯位控，你没有办法规划出一条合适的位置轨迹（Position Trajectory），必须引入力控，做实时的动态控制（Dynamic Control）。
 

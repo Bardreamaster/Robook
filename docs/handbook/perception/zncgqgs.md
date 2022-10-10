@@ -2,6 +2,7 @@
 title: 智能传感器全面概述——机器人感知基础
 ---
 
+> 转载于：https://zhuanlan.zhihu.com/p/407949355
 
 ## 一、传感器概念 
 
@@ -9,14 +10,14 @@ title: 智能传感器全面概述——机器人感知基础
 
 传感器（transducer/sensor）是一种检测装置，能感受到被测量的信息，并能将感受到的信息，按一定规律变换成为电信号或其他所需形式的信息输出，以满足信息的传输、处理、存储、显示、记录和控制等要求。
 
-![image_c3262c70.png](http://markdown.liangtengyu.com:9999/images//image_c3262c70.png) 
+![image_c3262c70.png](https://pic4.zhimg.com/80/v2-b22041403bc3b6ff95163b8fbbe880c7_720w.webp) 
 
 其他定义——
 
  *  GB/T7665-05（87）：传感器是能感受被测量并按照一定的规律转换成可用输出信号的器件或装置，通常由敏感元件和转换元件组成。
 
-![image_5b0dcd94.png](http://markdown.liangtengyu.com:9999/images//image_5b0dcd94.png) 
-![image_ec5be000.png](http://markdown.liangtengyu.com:9999/images//image_ec5be000.png) 
+![image_5b0dcd94.png](https://pic4.zhimg.com/80/v2-0a1dd1fd7c4c73d2f93087143689f31f_720w.webp) 
+![image_ec5be000.png](https://pic3.zhimg.com/80/v2-072a47c29a9d0461a46e0b101c88ea96_720w.webp) 
 
 ### 2. 分类 
 
@@ -32,23 +33,23 @@ title: 智能传感器全面概述——机器人感知基础
 
 ### 1. 全球传感器发展历程 
 
-![image_15309b00.png](http://markdown.liangtengyu.com:9999/images//image_15309b00.png) 
+![image_15309b00.png](https://pic4.zhimg.com/80/v2-0c630d6e293a3efe01efd7c356fc2d3b_720w.webp) 
 
 ### 2. 我国传感器发展历程 
 
-![image_9e7b594b.png](http://markdown.liangtengyu.com:9999/images//image_9e7b594b.png) 
+![image_9e7b594b.png](https://pic1.zhimg.com/80/v2-20a7d599fe2507ba12df1687b8d0d9d4_720w.webp) 
 
 ### 3. 传感器在当今社会的地位 
 
 现代信息产业的三大支柱是传感器技术、通信技术和计算机技术
 
-![image_11c7cf02.png](http://markdown.liangtengyu.com:9999/images//image_11c7cf02.png) 
+![image_11c7cf02.png](https://pic1.zhimg.com/80/v2-e52cb112ea5c73143720023cfa06b40c_720w.webp) 
 
 ### 4. 传感器形式发展历程 
 
 分离式→单片集成式→智能化→网络系统化
 
-![image_b1dd636b.png](http://markdown.liangtengyu.com:9999/images//image_b1dd636b.png) 
+![image_b1dd636b.png](https://pic3.zhimg.com/80/v2-66a690a5cad66c963696464031ef61d2_720w.webp) 
 
 ## 三、智能传感器 
 
@@ -56,7 +57,7 @@ title: 智能传感器全面概述——机器人感知基础
 
 智能传感器（Intelligent/Smart Sensor）带有微处理器，具有采集、处理、交换信息的能力，是传感器集成化与微处理机相结合的产物
 
-![image_71048618.png](http://markdown.liangtengyu.com:9999/images//image_71048618.png) 
+![image_71048618.png](https://pic1.zhimg.com/80/v2-f25beaac7ab55f51814b348d2fbf325c_720w.webp) 
 
  *  信号调理电路：将模拟信号变换为数字信号
  *  微处理器：由一片或少数几片大规模集成电路组成的中央处理器，如 单片机、DSP、FPGA、ARM等
@@ -132,19 +133,27 @@ title: 智能传感器全面概述——机器人感知基础
 
 绝对误差：
 
-e\_a =y-y\_d\\\\
+$$
+e_a =y-y_d
+$$
 
 相对误差：
 
-e\_r=\\frac\{y-y\_d\}\{y\_d\}\\times 100\\%\\\\
+$$
+e_r=\frac{y-y_d}{y_d}\times 100%
+$$
 
 平均误差：
 
-e\_\{av\}=\\frac\{1\}\{n\}\\sum \\begin\{vmatrix\} y\_i-y\_\{di\} \\end\{vmatrix\}\\\\
+$$
+e_{av}=\frac{1}{n}\sum \begin{vmatrix} y_i-y_{di} \end{vmatrix}
+$$
 
 均方根误差：
 
-e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
+$$
+e_{rmse}=\sqrt{\frac{\sum(y_i-y_{di})^2}{n}}
+$$
 
 ### 2. 分辨率 
 
@@ -172,33 +181,27 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
 
 ## 五、智能传感器信息处理技术 
 
-![image_29bba3ac.png](http://markdown.liangtengyu.com:9999/images//image_29bba3ac.png) 
+![image_29bba3ac.png](https://pic3.zhimg.com/80/v2-40180fb2c7a34431c096853ef7127bce_720w.webp) 
 
 ### 1. 传感器模型构建技术 
 
-  
-
-
-![image_a85b7c28.png](http://markdown.liangtengyu.com:9999/images//image_a85b7c28.png) 
+![image_a85b7c28.png](https://pic4.zhimg.com/80/v2-da1f2c2ca669ff723b47c72f8c8af20b_720w.webp) 
 
 ### 2. 数据处理技术 
 
-![image_3977ea29.png](http://markdown.liangtengyu.com:9999/images//image_3977ea29.png) 
+![image_3977ea29.png](https://pic2.zhimg.com/80/v2-74268f4c2ef385d4a33601b0741d528d_720w.webp) 
 
 ### 3. 视听感知信息处理技术 
 
-![image_51504fdc.png](http://markdown.liangtengyu.com:9999/images//image_51504fdc.png) 
+![image_51504fdc.png](https://pic4.zhimg.com/80/v2-057ca60f6a248ef35104ee6bee760b6b_720w.webp) 
 
 ### 4. 信息处理算法的嵌入式实现技术 
 
-![image_be374673.png](http://markdown.liangtengyu.com:9999/images//image_be374673.png) 
+![image_be374673.png](https://pic1.zhimg.com/80/v2-930814a92ab57a55bb66134d4fc4d024_720w.webp) 
 
 ### 5. 控制应用 
 
-![image_4c8fc6d7.png](http://markdown.liangtengyu.com:9999/images//image_4c8fc6d7.png) 
-
-  
-
+![image_4c8fc6d7.png](https://pic2.zhimg.com/80/v2-dccf135b6418ebc4c65f3ec9963f0d61_720w.webp) 
 
  *  算法由主控制器嵌入移植至传感器内，降低主控制器的计算量，提高了控制频率，降低了控制延时，能够提高系统稳定性和控制精度。
  *  算法嵌入式移植可借助于硬件并行处理实现，提高处理速度，保障控制带宽
@@ -206,57 +209,40 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
 
 ## 六、智能传感器与机器人 
 
-  
-
-
-![image_169cb3ac.png](http://markdown.liangtengyu.com:9999/images//image_169cb3ac.png)  ![image_3da32b9b.png](http://markdown.liangtengyu.com:9999/images//image_3da32b9b.png) 
+![image_169cb3ac.png](https://pic4.zhimg.com/80/v2-6ee810a321c1b3f97563e9666fe99a0b_720w.webp)  
+![image_3da32b9b.png](https://pic1.zhimg.com/80/v2-63387a98939bb2c347101f51e77a0a60_720w.webp) 
 
 机器人&传感器
 
-![image_cf9c2e8a.png](http://markdown.liangtengyu.com:9999/images//image_cf9c2e8a.png) 
+![image_cf9c2e8a.png](https://pic3.zhimg.com/80/v2-ca26ed440d1b048e211a5fcad22f3546_720w.webp) 
 
 ### 1. 机器人传感器分类 
 
-![image_c5467ea5.png](http://markdown.liangtengyu.com:9999/images//image_c5467ea5.png) 
+![image_c5467ea5.png](https://pic1.zhimg.com/80/v2-f8d7dffbc3b1f3735c5a7e5819e433c4_720w.webp) 
 
 ### 2. 力传感器 
 
 依据传感器安装部位来分：关节力传感器、腕力传感器和指力传感器
 
-  
-
-
-![image_7c4cb5cb.png](http://markdown.liangtengyu.com:9999/images//image_7c4cb5cb.png) 
+![image_7c4cb5cb.png](https://pic2.zhimg.com/80/v2-43b602fab4afb1066753191cfae3b0e9_720w.webp) 
 
 ### 3. 编码器 
 
  *  光电式增量编码器
 
-  
-
-
-![image_3ae77a09.png](http://markdown.liangtengyu.com:9999/images//image_3ae77a09.png) 
+![image_3ae77a09.png](https://pic1.zhimg.com/80/v2-79e0ce1dd81e55e96551f5d3cb334af4_720w.webp) 
 
  *  绝对式光电编码器
 
-  
-
-
-![image_5958f524.png](http://markdown.liangtengyu.com:9999/images//image_5958f524.png) 
+![image_5958f524.png](https://pic4.zhimg.com/80/v2-7d24f7e74ecf2baf3f79a6f5ff502aff_720w.webp) 
 
 ### 4. 陀螺仪 
 
-  
-
-
-![image_ce5bf1bc.png](http://markdown.liangtengyu.com:9999/images//image_ce5bf1bc.png) 
+![image_ce5bf1bc.png](https://pic4.zhimg.com/80/v2-e5d2a43a5fc884488a54982929657017_720w.webp) 
 
 ### 5. 视觉传感器（CCD、超声、激光、红外） 
 
-  
-
-
-![image_bda51bcd.png](http://markdown.liangtengyu.com:9999/images//image_bda51bcd.png) 
+![image_bda51bcd.png](https://pic3.zhimg.com/80/v2-e0c13a75ae9263514344d3f43294df9a_720w.webp) 
 
 ### 6. 触觉传感器 
 
@@ -283,7 +269,7 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
   
 
 
-![image_d96b260f.png](http://markdown.liangtengyu.com:9999/images//image_d96b260f.png) 
+![image_d96b260f.png](https://pic1.zhimg.com/80/v2-400a63427b3295b48595cfddb9b8c984_720w.webp) 
 
 ### 7. 听觉传感器 
 
@@ -307,10 +293,7 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
 
 ### 8. 嗅觉传感器 
 
-  
-
-
-![image_32867f0f.png](http://markdown.liangtengyu.com:9999/images//image_32867f0f.png) 
+![image_32867f0f.png](https://pic4.zhimg.com/80/v2-1522dca9c2264483db1a7a03c99cf01b_720w.webp) 
 
 （1）基本原理
 
@@ -330,10 +313,7 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
 
 ### 9. 味觉传感器 
 
-  
-
-
-![image_7c83b32e.png](http://markdown.liangtengyu.com:9999/images//image_7c83b32e.png) 
+![image_7c83b32e.png](https://pic2.zhimg.com/80/v2-3787c3bd1b22a86d3e3cd60a73506a85_720w.webp) 
 
 （1）基本原理
 
@@ -349,4 +329,4 @@ e\_\{rmse\}=\\sqrt\{\\frac\{\\sum(y\_i-y\_\{di\})^2\}\{n\}\}\\\\
 
 西班牙电子舌：
 
-![image_15e02bb8.png](http://markdown.liangtengyu.com:9999/images//image_15e02bb8.png) 
+![image_15e02bb8.png](https://pic4.zhimg.com/80/v2-f55d80836879984703fa730dfb8b90b7_720w.webp) 
