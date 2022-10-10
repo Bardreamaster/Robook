@@ -10,7 +10,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## TODO List
 
-- [ ] GitHub Actions 自动发布
+- [x] GitHub Actions 自动发布
 - [ ] 内容lint 
 
 ## 内容投稿
