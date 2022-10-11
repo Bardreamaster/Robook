@@ -8,10 +8,18 @@ This repository is for [Robook](robook.org).
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+
+### Deployment & Testing 
+
+- Clone this repository into your local environment, build the website by `npm` with command `npm run build`. Generated static files in "./build".
+- Use `npm run serve` command to test your build locally.
+
+
 ## TODO List
 
 - [x] GitHub Actions 自动发布
 - [ ] 内容lint 
+- [ ] 实验室介绍与分享
 
 ## 内容投稿
 
@@ -19,13 +27,13 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 要在手册中加入任何你想投稿的内容只需要以下几步：
 
-0. 准备好包含有你要投稿内容的文件夹，其中含有投稿内容的`.md`文件以及用到的媒体素材，如果是纯文本则只需要`.md`文件.
-0. Clone/Fork 仓库至你的开发环境，从 `dev` 分支新建分支添加你要提交的内容.
-0. 提Pull Request, 维护成员会在检查后merge至主分支并自动发布.
+0. 准备好包含有你要投稿内容的文件夹，其中含有投稿内容的`.md`文件以及用到的媒体素材，如果是纯文本则只需要`.md`文件,文件夹中**请不要包含子文件夹**.
+0. Clone/Fork 仓库至你的开发环境，从 `master` 分支新建分支添加你要提交的内容. **分支请命名为此分支的主要改动**（例如`feature/github_actions`），并以`feature/`、`add/`、`fix/`开头分别表示新的特性、纯内容的添加和错误更正或bug修复.
+0. 修改完成后**rebase至`master`最新状态并仅保留关键的commit信息**，提出Pull Request, 维护成员会在检查后merge至主分支并自动发布.
 
 如果你是纯粹的内容贡献者,只需要准备上述的`0.`内容，将压缩包邮件(changshanshi@outlook.com)我们即可.
 
-受限于维护成员的时间，提交的内容会在数个非工作日之中尽快完成.
+受限于维护成员的时间，提交的内容会在**数个非工作日**之中尽快完成.
 
 除了自发的投稿者，我们同时不定期地积极寻找潜在的投稿者和有价值的信息来源，我们也欢迎学生、实验室提供有关的信息。对实验室、和个人的图文采访内容也纳入后续的规划之中，如有约稿意向也请联系我们.
 
