@@ -2,6 +2,7 @@
 title: 机器人控制分享
 authors: [syinghan]
 tags: [控制]
+date: 2022-09-30T10:00
 ---
 
 ## 0 前言

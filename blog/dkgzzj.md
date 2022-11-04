@@ -1,6 +1,7 @@
 ---
 title: RoboMaster电控组工作总结与基本思路
 tags: [成长路线]
+date: 2022-10-01T10:00
 ---
 
 > 转载于：https://zhuanlan.zhihu.com/p/569160065
