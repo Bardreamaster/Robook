@@ -89,10 +89,10 @@ const config = {
       navbar: {
         title: 'Robook',
         hideOnScroll: true,
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/favicon.ico',
+        },
         items: [
           {
             type: 'doc',
