@@ -2,23 +2,21 @@
 title: 如何开始SLAM学习
 ---
 
-> 转载于：https://zhuanlan.zhihu.com/p/379070942
+> 转载于：<https://zhuanlan.zhihu.com/p/379070942>
 
 自动驾驶里首先需要解决的问题就是建图和定位，如果地图和定位没有做好，无人车根本就跑不起来。而建图和定位又涉及SLAM技术。这里我主要是分享下我学习SLAM的经历和一些小小的思考，希望能够帮助大家。
 
-## 了解阶段 
+## 了解阶段
 
 因为我是从零开始的，我认为第一个阶段主要是了解SLAM技术，知道它的大致原理和用途就可以了。
 
 SLAM的名称理解起来非常容易，我觉得SLAM技术中取名字唯一值得推荐的就是SLAM这个名词本身。同时定位与地图构建（Simultaneous localization and mapping），我们来到一个陌生环境，由于没有地图，只能通过探索，一边获取自己的相对位置，一边绘制当前环境的地图，当探索完该区域之后，我们就可以得到该未知区域的完整地图了。
 
-![image_29cac1bb.png](https://www.liangtengyu.com:9998/images/image_29cac1bb.png) 
-
 除了SLAM，其它的一些名词大部分都晦涩难懂，我一度怀疑这些大神都是在秀屠龙技能。站在一个新手的角度来说，一个贴切和容易理解的技术名词非常关键，一个不知所措的名词往往都会吓退新人，比如BA，李代数群，词袋。我不排除其它学科的一些缩写和专有名词，但是这些名词完全无法用一句话解释它的用途，理解起来也非常不形象，这是我觉得不太合理的地方。
 
 接下来是前端和后端，在计算机技术中前端通常指的是网页，后端通常指的是后台的服务器程序。而SLAM中恰恰又有前端和后端的概念，导致我理解起来也有点费力气，一是因为我之前就有惯性思维，二是感觉也不太贴切，虽然功能上有一个大概的影子，但是拿前端和后端去统称这2个过程有什么现实的意义吗？下面贴一张前端和后端划分的图。
 
-![image_306eb2d8.png](https://www.liangtengyu.com:9998/images/image_306eb2d8.png) 
+![20230222143224](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/20230222143224.png)
 
 以我目前的理解前端是进行特征提取，获取相邻帧的位姿变换，而后端则是进行地图的拼接和位姿优化。这2个过程有点类似在线计算和离线计算的架构，也就是大数据的lambda架构，实时计算的是相邻帧的位姿，然后再离线计算位姿的优化并且提供给在线使用。用前和后来指代这2个过程我无法理解它们的作用。
 
@@ -26,7 +24,7 @@ SLAM的名称理解起来非常容易，我觉得SLAM技术中取名字唯一值
 
 第一阶段知道了SLAM的大概原理就成功了，千万不要再去刻意理解上述这些名词，有可能只是增加烦恼。
 
-## 学习框架 
+## 学习框架
 
 因为做自动驾驶，这里我主要以Lidar SLAM为例子来说明。目前lidar slam我认为优先学习lego-loam框架，然后是cartographer框架。其实如果开始只是了解SLAM的原理，一下子跳到看框架可能觉得跨度有点大，实际上我是非常建议一开始就是去学习框架，而不是看书，学习完整理论，学习数学之类，理由如下。
 
@@ -36,11 +34,11 @@ SLAM的名称理解起来非常容易，我觉得SLAM技术中取名字唯一值
 
 最后，LEGO-LOAM是当前比较主流的开源Lidar SLAM算法，学习动力足，不是什么过时或者不实用的算法。
 
-![image_58af2cc5.png](https://www.liangtengyu.com:9998/images/image_58af2cc5.png) 
+![20230222143232](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/20230222143232.png)
 
 等看完开源框架，基本上就对SLAM的整体框架有了一个大致的理解，比如前面所说的前端、后端，如何提取特征，如何做pose图优化，回环检测之类的。
 
-## 进阶阶段 
+## 进阶阶段
 
 由于我本人目前仅限于前面2个阶段，因此这里主要是一些想法，后面如果有更进一步的学习，我会继续补充。
 
@@ -50,13 +48,13 @@ SLAM的名称理解起来非常容易，我觉得SLAM技术中取名字唯一值
 
 比如特征提取，就有地面查找算法，聚类算法，这些算法什么时候适用于什么情况。如何做回环检测，如何进行pose-graph优化等。把这些单点的技术类似数据结构和算法总结出来，进行进一步的学习，然后再结合具体的场景去组合发挥出SLAM的威力，这可能是我目前比较推荐的学习思路和方法。
 
-## 补充阶段 
+## 补充阶段
 
 这几天又沉下心来看了《SLAM 14讲》可以说这本书对初学者来说非常友好，我个人觉得最大的收获在于，对基础概念解决的非常好，也就是说虽然之前的知识都懂，但是没有联系起来；另外就是结构清晰，比如SLAM的前端、后端、回环检测，虽然这些知识前面都可以了解，看书之后可以加深印象和理解。
 
 接下来就是根据模块把每个部分在进一步做深，比如前端就看匹配算法，后端就看优化算法，回环就看字典匹配等。当然还有一些开放问题，例如移动物体比较多的情况，环境变换的情况，长隧道等。
 
-## 总结 
+## 总结
 
 说实话一开始我只是用NDT在建图，之前一直尝试NDT建图没有成功的原因一是我没有理解pose之类的计算，二是没有好的工具，特别是可视化工具，能够手工加入旋转之类方便理解。实现了NDT之后，后面开始接触lego-loam，之前也是觉得高深莫测，但是一旦下定决心，并且只有4000行的代码量之后，接下来就容易多了，当然SLAM中名词混淆和刻意夸大优化算法公式之类的也是阻碍学习的重要原因之一，实际上这些优化算法都有对应的库可以实现，开始不用刻意理解。如果是后面涉及开发新的算法，可以在此基础上进一步学习。
 
@@ -64,25 +62,18 @@ SLAM的名称理解起来非常容易，我觉得SLAM技术中取名字唯一值
 
 后续我会对lego-loam做一些系统的笔记，并且尝试重构lego-loam的代码。
 
-  
+## SLAM论文综述
 
-
-## SLAM论文综述 
-
- *  Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age 2016年
- *  A critique of current developments in simultaneous localization and mapping 2016年
-
-  
-
+* Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age 2016年
+* A critique of current developments in simultaneous localization and mapping 2016年
 
 往期回顾
 
- *  [如何开始SLAM学习？][SLAM]
- *  [LeGO-LOAM分析之点云分割（一）][LeGO-LOAM]
- *  [LeGO-LOAM分析之特征提取（二）][LeGO-LOAM 1]
- *  [LeGO-LOAM分析之建图（三）][LeGO-LOAM 2]
- *  [LeGO-LOAM分析之配置（四）][LeGO-LOAM 3]
-
+* [如何开始SLAM学习？][SLAM]
+* [LeGO-LOAM分析之点云分割（一）][LeGO-LOAM]
+* [LeGO-LOAM分析之特征提取（二）][LeGO-LOAM 1]
+* [LeGO-LOAM分析之建图（三）][LeGO-LOAM 2]
+* [LeGO-LOAM分析之配置（四）][LeGO-LOAM 3]
 
 [SLAM]: https://zhuanlan.zhihu.com/p/379070942
 [LeGO-LOAM]: https://zhuanlan.zhihu.com/p/382460472
