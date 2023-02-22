@@ -10,7 +10,7 @@ title: 用于机器人应用的常见驱动器(伺服单元)汇总介绍与功�
 
 ## 汇总 
 
-![image_bf518111.png](https://www.liangtengyu.com:9998/images/image_bf518111.png)  
+![20230222135725](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/20230222135725.png)
 > 常见机器人驱动器（伺服单元）的汇总与功能介绍
 
 如上的表格是常见的12种驱动器的汇总与功能比较（我已经尽我最大的努力去提高上传图片的清晰度，但知乎会自动压缩上传图片的大小，抱歉），相关功能指标需要解释和补充如下：
@@ -22,42 +22,42 @@ title: 用于机器人应用的常见驱动器(伺服单元)汇总介绍与功�
 
 ## 来源 
 
- *  【1】至【6】为部分常见的商业驱动器的链接，有些会自动跳转到公司的主页面，可能需要你再仔细去寻找相关产品的Datasheet。
+* 【1】至【6】为部分常见的商业驱动器的链接，有些会自动跳转到公司的主页面，可能需要你再仔细去寻找相关产品的Datasheet。
 
-【1】Robotics Dynamixel Pro Series：
+    【1】Robotics Dynamixel Pro Series： <https://link.zhihu.com/?target=http%3A//www.robotis.us/dynamixel-pro/>
 
-【2】Harmonic Drive CanisDrive：
+    【2】Harmonic Drive CanisDrive： <https://link.zhihu.com/?target=https%3A//harmonicdrive.de/de/startseite/>
 
-【3】RoboDrive RD50/70/85-HD
+    【3】RoboDrive RD50/70/85-HD: <https://link.zhihu.com/?target=https%3A//www.tq-robodrive.com/>
 
-【4】Kinova Actuators K-58/K-75
+    【4】Kinova Actuators K-58/K-75: <https://link.zhihu.com/?target=https%3A//www.kinovarobotics.com/en>
 
-【5】Schunk Powercube PDU PR PSM
+    【5】Schunk Powercube PDU PR PSM: <https://link.zhihu.com/?target=https%3A//schunk.com/it_en/gripping-systems/series/pdu/>
 
-【6】ETH ANYdrive
+    【6】ETH ANYdrive: <https://link.zhihu.com/?target=http%3A//www.rsl.ethz.ch/robots-media/actuators/anydrive.html>
 
- *  【7】至【12】为来自各个科研单位驱动器的相关来源信息，除了来自iit的驱动器以外，主要体现就以科研论文为主——相对来说从科研论文中提取关键信息较为繁琐。
+* 【7】至【12】为来自各个科研单位驱动器的相关来源信息，除了来自iit的驱动器以外，主要体现就以科研论文为主——相对来说从科研论文中提取关键信息较为繁琐。
 
-【7】iit Tree Robotics——意大利技术研究院（iit）
+    【7】iit Tree Robotics——意大利技术研究院（iit）: <https://link.zhihu.com/?target=http%3A//treerobotics.eu/>
 
-【8】Robosimian Actuator——美国宇航局喷气推进实验室（NASA JPL）
+    【8】Robosimian Actuator——美国宇航局喷气推进实验室（NASA JPL）: <https://link.zhihu.com/?target=http%3A//www.dtic.mil/get-tr-doc/pdf%3FAD%3DADA603513>
 
- *  注：此链接为顶刊Journal of Field Robotics的论文“Mobile Manipulation and Mobility as Manipulation Design and Algorithms of RoboSimian”的下载链接。
+* 注：此链接为顶刊Journal of Field Robotics的论文“Mobile Manipulation and Mobility as Manipulation Design and Algorithms of RoboSimian”的下载链接。
 
-【9】NREC Drive Joint——卡内基梅隆大学（CMU ）
+    【9】NREC Drive Joint——卡内基梅隆大学（CMU ）: <https://link.zhihu.com/?target=http%3A//www.ri.cmu.edu/pub_files/2015/3/rob21569.pdf>
 
- *  注：此链接为顶刊Journal of Field Robotics的论文“CHIMP, the CMU Highly Intelligent Mobile Platform”的下载链接。
+* 注：此链接为顶刊Journal of Field Robotics的论文“CHIMP, the CMU Highly Intelligent Mobile Platform”的下载链接。
 
-【10】DLR LWR III Joint Unit——德国宇航局（DLR）
+【10】DLR LWR III Joint Unit——德国宇航局（DLR）: <https://link.zhihu.com/?target=http%3A//citeseerx.ist.psu.edu/viewdoc/download%3Fdoi%3D10.1.1.1024.5166%26rep%3Drep1%26type%3Dpdf>
 
- *  注：此链接为论文“The DLR lightweight robot - Design and Control Concepts for Robots in Human Environments”的下载链接，因为DLR和KUKA有很深的合作关系，所以通过这篇文章也可以大致了解KUKA机械臂驱动器的结构和原理。
+* 注：此链接为论文“The DLR lightweight robot - Design and Control Concepts for Robots in Human Environments”的下载链接，因为DLR和KUKA有很深的合作关系，所以通过这篇文章也可以大致了解KUKA机械臂驱动器的结构和原理。
 
-【11】ARMAR-4 Sensor-Actuator Unit——卡尔斯鲁厄理工学院（KIT）
+【11】ARMAR-4 Sensor-Actuator Unit——卡尔斯鲁厄理工学院（KIT）: <https://link.zhihu.com/?target=http%3A//h2t.anthropomatik.kit.edu/pdf/Asfour2013.pdf>
 
- *  注：此链接为论文"ARMAR-4: A 63 DOF Torque Controlled Humanoid Robot"的下载链接，KIT较为早期的工作：63个自由度的双足人形——系统集成的密集程度给KIT跪下了。
+* 注：此链接为论文"ARMAR-4: A 63 DOF Torque Controlled Humanoid Robot"的下载链接，KIT较为早期的工作：63个自由度的双足人形——系统集成的密集程度给KIT跪下了。
 
-【12】KIT SAC Unit——卡尔斯鲁厄理工学院（KIT）
+【12】KIT SAC Unit——卡尔斯鲁厄理工学院（KIT）: <https://link.zhihu.com/?target=http%3A//h2t.anthropomatik.kit.edu/pdf/Rader2017.pdf>
 
- *  注：此链接为论文"Highly Integrated Sensor-Actuator-Controller Units for Modular Robot Design"的下载链接。属于KIT比较新的工作（2017年的AIM的文章），作者阅读完这篇文章后，觉得应该算是代表当前学术圈巅峰工程能力和应用水平，推荐阅读。
+* 注：此链接为论文"Highly Integrated Sensor-Actuator-Controller Units for Modular Robot Design"的下载链接。属于KIT比较新的工作（2017年的AIM的文章），作者阅读完这篇文章后，觉得应该算是代表当前学术圈巅峰工程能力和应用水平，推荐阅读。
 
-关于更多的机器人驱动器种类或者信息，欢迎随时留言和作者交流——Communication benefits all !
+关于更多的机器人驱动器种类或者信息，欢迎随时留言和作者交流——Communication benefits all!

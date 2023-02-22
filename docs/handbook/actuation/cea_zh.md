@@ -12,6 +12,7 @@ title: 离合器在机器人关节驱动器中的应用介绍
  *  现阶段此方案是否对腿足式(双足)机器人有实用价值
 
 > 参考文献：  
+>
 > 1. Plooij, Michiel, Wouter Wolfslag, and Martijn Wisse. " Clutched elastic actuators." IEEE/ASME Transactions on Mechatronics 22, no. 2 (2017): 739-750.  
 > 2. Malzahn, Jörn, Vishnu Dev Amara, and Nikolaos Tsagarakis. "Continuously Controllable Series Clutches for Efficient Robot Actuation." In 2018 IEEE International Conference on Robotics and Automation (ICRA), pp. 7735-7741.
 
@@ -34,13 +35,13 @@ title: 离合器在机器人关节驱动器中的应用介绍
 
 ## 典型的设计方案举例 
 
-![image_8c196a7b.png](https://www.liangtengyu.com:9998/images/image_8c196a7b.png)  Clutched Elastic Actuators (CEA) 动力学分析建模图
+![![image_8c196a7b.png](httpswww.liangtengyu.com9998imagesimage_8c196a7b.png)](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/![image_8c196a7b.png](httpswww.liangtengyu.com9998imagesimage_8c196a7b.png).png)  Clutched Elastic Actuators (CEA) 动力学分析建模图
 
 上图展示了集成离合器(Clutch)的机器人关节驱动器的动力学建模分析图，我们可以很直观地看见浅绿色框图中，通过控制离合器的通断，能够主动并且瞬时控制电机端(已集成高减速比减速箱)和输出端的传动连接，达到提升反向驱动能力(Back-Drive Ability)和能量效率的目标。
 
 那么如何去具体实现上图绿色方框中的离合器结构呢？机器人关节驱动器层面对集成离合器设计的要求是：1. 尺寸紧凑(Compact)；2. 轻量化(Light-weight); 3. 可靠性(Reliable)。我这里就举一个最具有代表性的方案：锥形离合器(Conical Clutch)。
 
-![image_bf5438d9.png](https://www.liangtengyu.com:9998/images/image_bf5438d9.png)  Conical Clutch 锥形离合器的结构示意图
+![20230222135647](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/20230222135647.png) Conical Clutch 锥形离合器的结构示意图
 
 如上图，锥形离合器是通过公母两椎体(Female cone & Male cone)之间的摩擦实现离合器锁紧时输出轴(Shaft)上扭矩的传输。公椎体可沿轴线方向运动，结构5(Clutch Control)提供公椎体锁紧时向左运动的力，结构4为复位弹簧，可向右拉开公椎体，即打开离合器。通常我们在机器人关节中，可由二级电机驱动的滚珠丝杠或者电磁铁去代替上述的结构4和结构5。
 
