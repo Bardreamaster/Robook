@@ -6,7 +6,7 @@
 
 ![robook_home](./static/img/robook_home.png)
 
-This repository is for [Robook](robook.org).
+This repository is for [Robook](https://robook.org).
 
 ### Robook 是什么
 
