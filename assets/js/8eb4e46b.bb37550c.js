@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrobook=self.webpackChunkrobook||[]).push([[1],{2638:e=>{e.exports=JSON.parse('{"permalink":"/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":14,"previousPage":"/blog","blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2\u6807\u9898"}')}}]);
