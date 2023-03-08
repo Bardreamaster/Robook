@@ -65,10 +65,12 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 - [x] GitHub Actions 自动发布
 - [ ] 内容lint 
-- [ ] 实验室介绍与分享
+- [x] 实验室介绍与分享
 - [x] Netlify部署，境内外流量分流，加速大陆地区访问.
 - [x] 支持PWA应用，离线使用
-- [ ] 投稿奖励
+- [ ] 投稿奖励: 徽章
+- [x] 图床
+- [ ] 离线内容搜索
 
 ## 内容投稿
 
