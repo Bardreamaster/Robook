@@ -1,4 +1,4 @@
-# ![robook.ico](./static/img/favicon.ico) Robook 
+# ![robook.ico](./static/img/favicon.ico) Robook
 
 
 
@@ -55,7 +55,7 @@ Robook由南方科技大学两位机器人工程专业本科生牵头建立：�
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 
-### Deployment & Testing 
+### Deployment & Testing
 
 - Clone this repository into your local environment, build the website by `npm` with command `npm run build`. Generated static files in "./build".
 - Use `npm run serve` command to test your build locally.
@@ -64,13 +64,14 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ## TODO List
 
 - [x] GitHub Actions 自动发布
-- [ ] 内容lint 
+- [ ] 内容lint
 - [x] 实验室介绍与分享
 - [x] Netlify部署，境内外流量分流，加速大陆地区访问.
 - [x] 支持PWA应用，离线使用
 - [ ] 投稿奖励: 徽章
 - [x] 图床
-- [ ] 离线内容搜索
+- [x] 离线内容搜索
+- [x] 论坛： https://forum.robook.org
 
 ## 内容投稿
 
@@ -95,4 +96,3 @@ Docusaurus是基于React的文档构建框架，如有熟悉网站开发相关�
 ## 其它支持
 
 Robook同时接受其他各种形式的支持，包括且不限于服务器、CDN、投稿者稿酬赞助、视频文字宣传等.
-

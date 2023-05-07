@@ -106,10 +106,10 @@ const config = {
             position: 'left',
             label: '资源分享',
           },
-          { 
+          {
             type: 'dropdown',
-            to: '/blog', 
-            label: '博客', 
+            to: '/blog',
+            label: '博客',
             position: 'left',
             items: [
               {
@@ -127,6 +127,11 @@ const config = {
             docId: 'about/aboutRobook',
             position: 'left',
             label: '关于本站',
+          },
+          {
+            href: 'https://forum.robook.org/',
+            label: 'Robook Forum',
+            position: 'right',
           },
           {
             href: 'https://github.com/bardreamaster/robook',
@@ -189,7 +194,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-  
+
   plugins: [
     [
       '@docusaurus/plugin-pwa',
@@ -249,6 +254,18 @@ const config = {
           },
         ],
       },
+    ],
+  ],
+  themes: [
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        language: ["en", "zh"],
+      }),
     ],
   ],
 };
