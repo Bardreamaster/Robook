@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Robook',
   tagline: 'Robotics in SUSTech',
-  url: 'https://bardreamaster.github.io',
+  url: 'https://robook.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -184,7 +184,10 @@ const config = {
           // },
           {
             html:` <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv" style='display:none'>本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>`,
+            <span id="busuanzi_container_site_pv" style='display:none'>本站为分站，访问量<span id="busuanzi_value_site_pv"></span>次</span>`,
+          },
+          {
+            html:` 备案号: <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2021003000号-3</a>`,
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Robook.`,
