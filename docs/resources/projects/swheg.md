@@ -1,3 +1,6 @@
+---
+title: SWheg, A Wheel-Leg Transformable Robot
+---
 ## SWheg: A Wheel-Leg Transformable Robot
 
 SWheg: 在线轮腿切换机器人项目是由贾振中助理教授课题组的本科生刘拯涛，戴存玺，刘啸涵，周剑翔共同完成的科研项目。

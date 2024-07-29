@@ -1,6 +1,8 @@
-# Carnegie Mellon University, Class of 2023, Master of Science in Mechanical Engineering - Research
+---
+title: Carnegie Mellon University, Class of 2023, Master of Science in Mechanical Engineering - Research
+---
 
-# 写在开始之前
+## 写在开始之前
 
 最近正在等待学校出结果……从最开始的焦虑、到现在的麻木，整个人都有点僵硬，做事情也没啥动力。正好那天有同学提到了写飞跃手册的事情，那我就尽我所能，系统地写写吧。之前有一批人搞了飞跃手册的GitHub网页，我也看了。各位学长学姐的经验固然及其宝贵，但是感觉缺少系统的、从头至尾的框架。所以我希望自己能补充一下这方面的东西，并且掺杂一些“机器人工程”的私货。
 
@@ -228,9 +230,9 @@ The only thing you need to do is to follow your heart.
    **·** 给出具体的事例，比如你的某几段科研经历。
 
    **·** 不要把所有的事情全往上堆，只选择那些你觉得有较大意义、对你的成长有较大作用、激励你的事情。
-   
+
    **· 不要说谎！不要瞎编！**
-   
+
 3. 你的大纲应该至少包含有以下这些内容：
 
    **·** 这个项目/院系/学校的哪些方面吸引了你？（比如课程体系、就业/科研资源、某些教授和实验室等等）
