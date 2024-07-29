@@ -1,4 +1,6 @@
-# Single Leg Hopping Robot
+---
+title: Single Leg Hopping Robot
+---
 
 ![20230306172909](https://robook-1313535466.cos.ap-guangzhou.myqcloud.com/20230306172909.png)
 
@@ -12,12 +14,12 @@ My friend **Zhenyang Chen**, who I teamed up with in this class, made [**a very 
 
 My experience in this class was fantastic, definitely one of the best classes I’ve taken. I especially enjoyed how the lecture is structured: Lectures in the first-half semester are mainly on the fundamentals of robotics. In the second half, lectures are more like talks on a specific topic, or an introduction to a field. Sangbae was an interesting lecturer, always combining the lecture with his own experience in an interesting way. One time he talked about how much working out means to staying healthy, especially core strength. He is why I started intensively working out(this and that I have more free time as a senior student now >:D)
 
-My team was amazing and easy to work with. I stayed up the night before the presentation, doing some final tests on the robot. We didn’t get our final result(both simulation and on real robots) until 4:00 am in the morning, at the cost of breaking multiple cheap DC motors and a lot of coffee. But we made it happen, almost magically. We had a smooth presentation, good feedback from the audience, and a good laugh when Zhenyang showed some of the simulation failures gifs. 
+My team was amazing and easy to work with. I stayed up the night before the presentation, doing some final tests on the robot. We didn’t get our final result(both simulation and on real robots) until 4:00 am in the morning, at the cost of breaking multiple cheap DC motors and a lot of coffee. But we made it happen, almost magically. We had a smooth presentation, good feedback from the audience, and a good laugh when Zhenyang showed some of the simulation failures gifs.
 
 We had lunch afterward, sangbae was such a nice person to talk to. He shared with us his opinions on some fields of robotics, and his experience trying pig’s large intestine(a very famous food in my hometown) for the first time. We cracked some good laughs.
 
 My experience in this class was fantastic, definitely one of the best classes I’ve taken. I especially enjoyed how the lecture is structured: Lectures in the first-half semester are mainly on the fundamentals of robotics. In the second half, lectures are more like talks on a specific topic, or an introduction to a field. Sangbae was an interesting lecturer, always combining the lecture with his own experience in an interesting way. One time he talked about how much working out means to staying healthy, especially core strength. He is why I started intensively working out(this and that I have more free time as a senior student now >:D)
 
-My team was amazing and easy to work with. I stayed up the night before the presentation, doing some final tests on the robot. We didn’t get our final result(both simulation and on real robots) until 4:00 am in the morning, at the cost of breaking multiple cheap DC motors and a lot of coffee. But we made it happen, almost magically. We had a smooth presentation, good feedback from the audience, and a good laugh when Zhenyang showed some of the simulation failures gifs. 
+My team was amazing and easy to work with. I stayed up the night before the presentation, doing some final tests on the robot. We didn’t get our final result(both simulation and on real robots) until 4:00 am in the morning, at the cost of breaking multiple cheap DC motors and a lot of coffee. But we made it happen, almost magically. We had a smooth presentation, good feedback from the audience, and a good laugh when Zhenyang showed some of the simulation failures gifs.
 
 We had lunch afterward, sangbae was such a nice person to talk to. He shared with us his opinions on some fields of robotics, and his experience trying pig’s large intestine(a very famous food in my hometown) for the first time. We cracked some good laughs.
