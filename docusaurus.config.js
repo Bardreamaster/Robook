@@ -129,11 +129,6 @@ const config = {
             label: '关于本站',
           },
           {
-            href: 'https://forum.robook.org/',
-            label: 'Robook Forum',
-            position: 'right',
-          },
-          {
             href: 'https://github.com/bardreamaster/robook',
             label: 'GitHub',
             position: 'right',

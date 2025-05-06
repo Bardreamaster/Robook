@@ -71,7 +71,8 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 - [ ] 投稿奖励: 徽章
 - [x] 图床
 - [x] 离线内容搜索
-- [x] 论坛： https://forum.robook.org
+- [x] ~~论坛：~~ https://forum.robook.org
+- [ ] Robook Wiki: https://wiki.robook.org
 
 ## 内容投稿
 
