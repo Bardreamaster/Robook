@@ -50,7 +50,7 @@ tags: [控制, 心得]
 
 > [2.1.2] (Gilbert Strang) Linear Algebra and Its Application (4th Edition) https://ia802906.us.archive.org/18/items/StrangG.LinearAlgebraAndItsApplications45881001/%5BStrang_G.%5D_Linear_algebra_and_its_applications%284%29%5B5881001%5D.pdf
 
-> [2.1.3] (John A.Rice) Mathematical Statistics and Data Analysis (3rd Edition) <http://home.ustc.edu.cn/~liweiyu/documents/[Duxbury%20Advanced]%20John%20A.%20Rice%20-%20Mathematical%20Statistics%20and%20Data%20Analysis%203ed%20(Duxbury%20Advanced)%20%20%20(2006,%20Duxbury%20Press).pdf>
+> [2.1.3] (John A.Rice) Mathematical Statistics and Data Analysis (3rd Edition) http://home.ustc.edu.cn/~liweiyu/documents/[Duxbury%20Advanced]%20John%20A.%20Rice%20-%20Mathematical%20Statistics%20and%20Data%20Analysis%203ed%20(Duxbury%20Advanced)%20%20%20(2006,%20Duxbury%20Press).pdf
 
 > [2.1.4] (John Polking, etc.) Differential Equations with Boundary Value Problems (2nd Edition)
 

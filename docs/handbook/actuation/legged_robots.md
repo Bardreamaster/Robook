@@ -2,7 +2,7 @@
 title: 腿足式机器人三类主流关节驱动器性能对比
 ---
 
-> 转载于：<https://zhuanlan.zhihu.com/p/32267807>
+> 转载于：https://zhuanlan.zhihu.com/p/32267807
 
 设计能符合高度动态性能(Highly Dynamics)要求的腿足式机器人（Legged Robots）的驱动器（Actuator）,一直都是目前机器人学术界的巨大挑战。
 

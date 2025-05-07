@@ -8,40 +8,45 @@ authors: [changshan]
 
 ## 项目分享
 
-<details> <summary>模板效果</summary>
+<details>
+<summary>模板效果</summary>
 
-  # 如何搭建Robook
+```markdown
 
-  **作者： Changshan (changshanshi@outlook.com)**
+# 如何搭建Robook
 
-  ## 项目背景
+**作者： Changshan (changshanshi@outlook.com)**
 
-  为什么要搭建Robook;为了搭建Robook，做了哪些调查;综合考虑了哪些优劣，选择了Docusaurus的方案。
+## 项目背景
 
-  ## 项目细节
+为什么要搭建Robook;为了搭建Robook，做了哪些调查;综合考虑了哪些优劣，选择了Docusaurus的方案。
 
-  ### 工作内容
+## 项目细节
 
-  在搭建的过程中，为了实现设想的目标作出了哪些尝试和工作
+### 工作内容
 
-  ### 重要节点
+在搭建的过程中，为了实现设想的目标作出了哪些尝试和工作
 
-  在这过程中遇到了什么预期之外的事情，是怎么解决的。
+### 重要节点
 
-  ### 成果
-  
-  最终达到了什么样的效果
+在这过程中遇到了什么预期之外的事情，是怎么解决的。
 
-  ## 总结
+### 成果
 
-  作者认为的重要收获，关键节点，分享内容的闪光点，作者最感兴趣最了与分享的点子。
+最终达到了什么样的效果
 
+## 总结
+
+作者认为的重要收获，关键节点，分享内容的闪光点，作者最感兴趣最了与分享的点子。
+
+```
 
 </details>
 
-<details> <summary>模板源码</summary>
+<details>
+<summary>模板源码</summary>
 
-``` md
+```markdown
 
 # 如何搭建Robook
 
@@ -75,7 +80,8 @@ authors: [changshan]
 
 ## 实验室
 
-<details> <summary>模板效果</summary>
+<details>
+<summary>模板效果</summary>
 
 # Robook Lab
 
@@ -101,17 +107,18 @@ Robook 是一个致力与研究 Robot 和 Book 的实验室。
 同时我们也准备了一些相关资料供读者参考：
 
 - [Springer Handbook of Robotics ](https://link.springer.com/book/10.1007/978-3-540-30301-5)
-- 
+-
 
 ## 联系方式
 
 - 地址：广东省深圳市南山区南方科技大学工学院xxx室
 - 邮箱：changshanshi@outlook.com
-- 网站：<https://robook.org>
+- 网站：https://robook.org
 
 </details>
 
-<details> <summary>模板源码</summary>
+<details>
+<summary>模板源码</summary>
 
 ``` md
 
@@ -140,7 +147,7 @@ Robook 是一个致力与研究 Robot 和 Book 的实验室。
 同时我们也准备了一些相关资料供读者参考：
 
 - [Springer Handbook of Robotics ](https://link.springer.com/book/10.1007/978-3-540-30301-5)
-- 
+-
 
 ## 联系方式
 
