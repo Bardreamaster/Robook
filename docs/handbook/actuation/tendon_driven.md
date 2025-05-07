@@ -2,11 +2,11 @@
 title: 线驱动(Tendon Driven)在机器人应用中的利弊分析
 ---
 
-> 转载于：<https://zhuanlan.zhihu.com/p/54070538>
+> 转载于：https://zhuanlan.zhihu.com/p/54070538
 
 之前作者介绍了18年IROS中看到一款来自韩国性能很出色的：基于线驱动(Tendon Driven)的上身机器人LIMS2-AMBIDEX:
 
-<https://zhuanlan.zhihu.com/p/50916362>
+https://zhuanlan.zhihu.com/p/50916362
 
 这篇短文主要补充一下，上文提到的关于线驱动在机器人应用中的“血泪史”——即利弊分析，当然主要的视角集中于现阶段技术条件下的弊端分析。
 

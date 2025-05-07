@@ -1,8 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -34,6 +37,8 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -58,8 +63,8 @@ const config = {
           blogPostComponent: '@theme/BlogPostPage',
           blogTagsListComponent: '@theme/BlogTagsListPage',
           blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
-          //remarkPlugins: [require('remark-math')],
-          rehypePlugins: [],
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           beforeDefaultRemarkPlugins: [],
           beforeDefaultRehypePlugins: [],
           truncateMarker: /<!--\s*(truncate)\s*-->/,
@@ -127,11 +132,6 @@ const config = {
             docId: 'about/aboutRobook',
             position: 'left',
             label: '关于本站',
-          },
-          {
-            href: 'https://forum.robook.org/',
-            label: 'Robook Forum',
-            position: 'right',
           },
           {
             href: 'https://github.com/bardreamaster/robook',
