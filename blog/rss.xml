@@ -4,7 +4,7 @@
         <title>Robook Blog</title>
         <link>https://bardreamaster.github.io/blog</link>
         <description>Robook Blog</description>
-        <lastBuildDate>Wed, 07 May 2025 15:12:23 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2026 20:29:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[浅析机器人研究的特点]]></title>
             <link>https://bardreamaster.github.io/blog/zcj</link>
             <guid>https://bardreamaster.github.io/blog/zcj</guid>
-            <pubDate>Wed, 07 May 2025 15:12:23 GMT</pubDate>
+            <pubDate>Fri, 20 Feb 2026 20:29:05 GMT</pubDate>
             <description><![CDATA[ChenJacker]]></description>
             <content:encoded><![CDATA[<p><strong>ChenJacker</strong></p>
 <p>本科19级机器人工程专业，硕士23级智能制造与机器人专业</p>
@@ -72,7 +72,7 @@ Using Mixed Reality," in <em>IEEE Robotics and Automation Letters</em>, doi:
             <title><![CDATA[浅谈机器人中的机械]]></title>
             <link>https://bardreamaster.github.io/blog/ldf/浅谈机器人中的机械ldf</link>
             <guid>https://bardreamaster.github.io/blog/ldf/浅谈机器人中的机械ldf</guid>
-            <pubDate>Wed, 07 May 2025 15:12:23 GMT</pubDate>
+            <pubDate>Fri, 20 Feb 2026 20:29:05 GMT</pubDate>
             <description><![CDATA[受到邀请写作这个话题，其实非常煎熬，因为机械是一个很庞大的学科，即使是机器人中的机械也可以有很多说的，况且自己也不是一个纯机械科班学生，只是更多的会喜欢做也做得更多机械相关的工作，如果要把“机械”这个话题写成类似于知乎@YY硕的机器人工程师学习计划那样的学习计划我是做不到的。只能写一写我的理解和学习建议。]]></description>
             <content:encoded><![CDATA[<p>受到邀请写作这个话题，其实非常煎熬，因为机械是一个很庞大的学科，即使是机器人中的机械也可以有很多说的，况且自己也不是一个纯机械科班学生，只是更多的会喜欢做也做得更多机械相关的工作，如果要把“机械”这个话题写成类似于知乎<a href="https://www.zhihu.com/people/yyss2037" target="_blank" rel="noopener noreferrer">@YY硕</a>的<a href="https://zhuanlan.zhihu.com/p/22266788" target="_blank" rel="noopener noreferrer">机器人工程师学习计划</a>那样的学习计划我是做不到的。只能写一写我的理解和学习建议。</p>
 <p>本文内容主要在这几个方面：</p>
@@ -228,7 +228,7 @@ Using Mixed Reality," in <em>IEEE Robotics and Automation Letters</em>, doi:
             <title><![CDATA[机器人感知]]></title>
             <link>https://bardreamaster.github.io/blog/zyt/zyt</link>
             <guid>https://bardreamaster.github.io/blog/zyt/zyt</guid>
-            <pubDate>Wed, 07 May 2025 15:12:23 GMT</pubDate>
+            <pubDate>Fri, 20 Feb 2026 20:29:05 GMT</pubDate>
             <description><![CDATA[感知是机器人中非常重要的一环，根据人们所公认的机器人的定义：机器人能感知（percept）环境，从而做出决策（make decisions），然后做出相关反应（reaction）。感知是机器人与物理世界交互的入口。]]></description>
             <content:encoded><![CDATA[<p>感知是机器人中非常重要的一环，根据人们所公认的机器人的定义：机器人能感知（percept）环境，从而做出决策（make decisions），然后做出相关反应（reaction）。感知是机器人与物理世界交互的入口。</p>
 <p><img decoding="async" loading="lazy" alt="图源：Siegwart and Nourbakhsh Introduction to Autonomous Mobile Robot" src="https://bardreamaster.github.io/assets/images/%E5%9B%BE%E7%89%872-24b3ed14d80fd8a480a8e096d95800ec.png" width="554" height="451" class="img_ev3q"></p>
